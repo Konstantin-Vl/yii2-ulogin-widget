@@ -1,0 +1,22 @@
+{
+    "name": "kosv/yii2-ulogin-widget",
+    "description": "Ulogin widget for yii2.",
+    "keywords": ["yii2", "ulogin", "extension", "widget", "kosv"],
+    "homepage": "https://github.com/Konstantin-Vl/yii2-ulogin-widget",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Konstantin Voloshchuk",
+            "email": "kosv.dev@gmail.com",
+            "homepage": "https://github.com/Konstantin-Vl"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "kosv\\ulogin\\widget\\": ""
+        }
+    }
+}
