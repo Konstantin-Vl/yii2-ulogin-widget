@@ -5,6 +5,7 @@
     "homepage": "https://github.com/Konstantin-Vl/yii2-ulogin-widget",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Konstantin Voloshchuk",
