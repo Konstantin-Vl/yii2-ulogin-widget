@@ -5,11 +5,11 @@ Ulogin виджет для yii2
 ------------
 Установку через [composer](https://getcomposer.org/) можно выполнить так:
 ```bash
-composer require "kosv/yii2-ulogin-widget": "*"
+composer require kosv/yii2-ulogin-widget
 ```
 или в секцию `require` файла composer.json добавить строку:
 ```
-"kosv/yii2-ulogin-widget": "*",
+"kosv/yii2-ulogin-widget": "dev-master"
 ````
 
 Как пользоваться
