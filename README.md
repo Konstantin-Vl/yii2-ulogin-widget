@@ -1,6 +1,10 @@
 Ulogin виджет для yii2
 ============================
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Konstantin-Vl/yii2-ulogin-widget/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Konstantin-Vl/yii2-ulogin-widget/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/Konstantin-Vl/yii2-ulogin-widget/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Konstantin-Vl/yii2-ulogin-widget/build-status/master)
+
+
 Установка
 ------------
 Установку через [composer](https://getcomposer.org/) можно выполнить так:
