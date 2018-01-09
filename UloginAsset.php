@@ -17,7 +17,7 @@ use yii\web\AssetBundle;
  */
 class UloginAsset extends AssetBundle
 {
-	public $js = [
-		'//ulogin.ru/js/ulogin.js'
-	];
+    public $js = [
+        '//ulogin.ru/js/ulogin.js'
+    ];
 }
