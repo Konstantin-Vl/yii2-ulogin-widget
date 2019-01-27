@@ -110,7 +110,7 @@ class UloginWidget extends Widget
     public function setStateListener($event, $listener)
     {
         $js = sprintf(
-            'uLogin.setStateListener(%s, %s, %s);',
+            'uLogin.setStateListener("%s", "%s", %s);',
             $this->id,
             $event,
             $listener
