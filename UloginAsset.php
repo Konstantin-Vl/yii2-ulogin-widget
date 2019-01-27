@@ -1,7 +1,7 @@
 <?php
 /**
  * @link https://github.com/Konstantin-Vl/yii2-ulogin-widget
- * @copyright Copyright (c) 2016 Konstantin Voloshchuk
+ * @copyright Copyright (c) 2016-2019 Konstantin Voloshchuk
  * @license https://github.com/Konstantin-Vl/yii2-ulogin-widget/blob/master/LICENSE
  */
 
