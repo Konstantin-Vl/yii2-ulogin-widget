@@ -1,16 +1,13 @@
 <?php
 /**
  * @link https://github.com/Konstantin-Vl/yii2-ulogin-widget
- * @copyright Copyright (c) 2016 Konstantin Voloshchuk
+ * @copyright Copyright (c) 2016-2019 Konstantin Voloshchuk
  * @license https://github.com/Konstantin-Vl/yii2-ulogin-widget/blob/master/LICENSE
  */
 
 namespace kosv\ulogin\widget;
 
-use Yii;
 use yii\base\Widget;
-use kosv\ulogin\widget\UloginAsset;
-
 
 /**
  * Ulogin widget for yii2.
@@ -48,6 +45,7 @@ class UloginWidget extends Widget
      * @var string Ulogin init buttons
      */
     private $_initButtons;
+
     /**
      * @var string Ulogin init options
      */
@@ -88,7 +86,7 @@ class UloginWidget extends Widget
 
         UloginAsset::register($this->getView());
 
-        //Register event listeners
+        // Register event listeners
         foreach ($this->eventListeners as $event => $listener) {
             $this->setStateListener($event, $listener);
         }
